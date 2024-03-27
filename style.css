@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    height: 800px;
+    width: 700px;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: .5rem;
+    box-shadow: 2px  2px  10px 2px black;
+    
+}
+
+.cover-image {
+    height: 40%;
+    width: 100%;
+    background-image: url(computer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .5rem;
+}
+
+button {
+    background-color: orange;
+    margin: 50px;
+    font-size: 1.5rem;
+    padding: .5rem;
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: 1s;
+}
+button:hover {
+    background-color: rgb(247, 167, 10);
+    transform: scaleX(1.5)
+}
+
+h1 {
+    margin: 0 50px;
+
+}
+
+p{
+    margin: 50px;
+}
+.owner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    background-image: url(myimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 50%;
+    width: 15%;
+    margin-left: 50px;
+}
+
+.owner-img {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.owner-info {
+    margin-right: 300px;
+}
